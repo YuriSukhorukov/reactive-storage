@@ -1,0 +1,27 @@
+{
+  "name": "reactive-storage",
+  "version": "0.0.1",
+  "description": "Simple reactive storage using a Proxy object",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriSukhorukov/reactive-storage.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "simple",
+    "reactive",
+    "storage",
+    "ec6"
+  ],
+  "author": "yurisukhorukov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuriSukhorukov/reactive-storage/issues"
+  },
+  "homepage": "https://github.com/YuriSukhorukov/reactive-storage#readme"
+}
