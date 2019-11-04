@@ -14,8 +14,11 @@ const observerScore = (oldVal, newVal) => {
 gameStorage.subscribe('level', observerLevel);
 gameStorage.subscribe('score', observerScore);
 
-gameStorage.level = 1;      // Change level: undefined -> 1
-gameStorage.score = 123;    // Change score: undefined -> 123
+gameStorage.level = 1;                              // Change level: undefined -> 1
+gameStorage.score = 123;                            // Change score: undefined -> 123
+
+console.log(`Level: ${gameStorage.level}`);         // Level: 1
+console.log(`Score: ${gameStorage.score}`);         // Score: 123
 
 gameStorage.unsubscribe('level', observerLevel);
 gameStorage.unsubscribe('score', observerScore);
